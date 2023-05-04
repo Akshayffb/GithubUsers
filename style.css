@@ -1,0 +1,31 @@
+.formatted-data {
+    background-color: #f7f7f7;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 20px 0 0 0;
+}
+
+.avatar-small {
+    max-width: 50px;
+}
+
+li {
+    list-style: none;
+    position: relative;
+    padding-left: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+li:before {
+    content: "";
+    color: #333;
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+}
+
+.col-md-3{
+    all: initial !important;
+    float: right !important;
+    margin-right: -50px !important;
+}
